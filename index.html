@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="sv">
+	<meta charset="UTF-8">
+	<title>Cookie - kaklagring</title>
+	<link rel="stylesheet" href="cookie.css" media="screen" />
+	
+	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+	<script src="https://raw.github.com/carhartl/jquery-cookie/master/jquery.cookie.js"></script>
+	<script src="/cookie.jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('body').cookie({}, {foobar: 'hejsan', barfoo: 'svejsan'});
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>
